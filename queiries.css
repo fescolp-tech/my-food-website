@@ -10,7 +10,7 @@
   }
 
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 
@@ -48,6 +48,7 @@
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
+    gap: 6.4rem;
   }
   .hero-text-box,
   .hero-img-box {
@@ -58,5 +59,27 @@
   }
   .delivery-meals {
     justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn--form {
+    margin-top: 1.2rem;
   }
 }
